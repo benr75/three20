@@ -138,7 +138,7 @@ static const CGFloat kMarginY = 6;
     else
 #endif
     [app setStatusBarHidden:NO animated:YES];
-    [app setStatusBarStyle:UIStatusBarStyleBlackTranslucent animated:YES];
+    [app setStatusBarStyle:UIStatusBarStyleBlackOpaque animated:YES];
   }
   [_textView becomeFirstResponder];
 }

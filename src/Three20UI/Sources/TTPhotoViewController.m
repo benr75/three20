@@ -80,7 +80,7 @@ static const NSInteger kActivityLabelTag          = 96;
         target: nil
         action: nil] autorelease];
 
-    self.statusBarStyle = UIStatusBarStyleBlackTranslucent;
+    self.statusBarStyle = UIStatusBarStyleBlackOpaque;
     self.navigationBarStyle = UIBarStyleBlackTranslucent;
     self.navigationBarTintColor = nil;
     self.wantsFullScreenLayout = YES;
