@@ -57,7 +57,7 @@ static CGFloat kThumbnailRowHeight = 79;
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
   if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
     self.statusBarStyle = UIStatusBarStyleBlackOpaque;
-    self.navigationBarStyle = UIBarStyleBlackTranslucent;
+    self.navigationBarStyle = UIBarStyleBlack;
     self.navigationBarTintColor = nil;
     self.wantsFullScreenLayout = YES;
     self.hidesBottomBarWhenPushed = YES;
@@ -131,8 +131,10 @@ static CGFloat kThumbnailRowHeight = 79;
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 - (void)updateTableLayout {
-  self.tableView.contentInset = UIEdgeInsetsMake(TTBarsHeight()+4, 0, 0, 0);
-  self.tableView.scrollIndicatorInsets = UIEdgeInsetsMake(TTBarsHeight(), 0, 0, 0);
+  //self.tableView.contentInset = UIEdgeInsetsMake(TTBarsHeight()+4, 0, 0, 0);
+	self.tableView.contentInset = UIEdgeInsetsMake(4, 0, 0, 0);
+  //self.tableView.scrollIndicatorInsets = UIEdgeInsetsMake(TTBarsHeight(), 0, 0, 0);
+	self.tableView.scrollIndicatorInsets = UIEdgeInsetsMake(0, 0, 0, 0);
 }
 
 
