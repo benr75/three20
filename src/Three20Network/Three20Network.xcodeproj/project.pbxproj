@@ -1270,6 +1270,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PREBINDING = NO;
+				SDKROOT = iphoneos;
 			};
 			name = Internal;
 		};
@@ -1356,6 +1357,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PREBINDING = NO;
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
