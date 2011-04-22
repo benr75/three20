@@ -20,7 +20,7 @@
 # Ignore whitespace characters in paths
 IFS=$'\n'
 
-cd ${CONFIGURATION_BUILD_DIR}${PUBLIC_HEADERS_FOLDER_PATH}
+cd ${CONFIGURATION_BUILD_DIR}/..${PUBLIC_HEADERS_FOLDER_PATH}
 
 chmod a-w *.h 2>> /dev/null
 chmod a-w private/*.h 2>> /dev/null
