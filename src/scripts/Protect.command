@@ -20,7 +20,7 @@
 # Ignore whitespace characters in paths
 IFS=$'\n'
 
-//cd ${CONFIGURATION_BUILD_DIR}/..${PUBLIC_HEADERS_FOLDER_PATH}
+#cd ${CONFIGURATION_BUILD_DIR}/..${PUBLIC_HEADERS_FOLDER_PATH}
 if [ "${DEPLOYMENT_LOCATION}" == "YES" ]; then
     PREFIX=${BUILT_PRODUCTS_DIR}/..
 else
